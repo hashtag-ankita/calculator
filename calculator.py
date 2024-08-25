@@ -5,7 +5,9 @@ from ui import *
 def main():
     root = Tk()
     root.title("Calculator")
+    root.iconbitmap("images/icon.ico")
     root.geometry("332x270")
+
     
     create_ui(root)  # Create the UI components
     
